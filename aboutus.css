@@ -1,0 +1,100 @@
+body {
+  background-image: url(https://thumbs.gfycat.com/PartialPleasantAldabratortoise-size_restricted.gif);
+  background-position: center;
+  background-size: 100%;
+  padding: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Navigasi (fixed) */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000; /* mengatur tumpukan menjadi paling depan*/
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: black;
+  text-align: left;
+  list-style: none;
+  background-color: white;
+  background-clip: padding-box; /* background mengisi bagian dalam border*/
+  border: 1px solid black;
+  border-radius: 0.25rem;
+}
+/* ikon untuk responsive menu */
+.navbar-toggler > .navbar-toggler-icon > a  {
+  color: yellow;
+  text-decoration: none;
+}
+/* search button css */
+button  {
+  color: black;
+  background-color: lightgrey;
+  border-radius: 20%;
+  text-align: center;
+  font-size: 15px;
+}
+button:hover    {
+  color: yellow;
+  background-color: grey;
+}
+/* main nav */
+.nav-item:hover > a {
+  color: black;background-color: yellow;
+}
+nav a   {
+  color: white;
+}
+/* FOOTER */
+.container	{
+  color: yellow;
+}
+.container p	{
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1px;
+}
+.container a {
+  color: yellow;
+  text-decoration: none;
+}
+.container p a:hover    {
+  opacity: 0.7;
+  color: red;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+.soc a  {
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  background: transparant;
+  color: lightgray;
+  text-decoration: none;
+}
+/* footer - copyright css */
+#copyright  {
+  text-align: center; font-size: 10px; padding-bottom: 2px;
+}
+/* isi konten disclaimer */
+.disc   {
+  font-size: 14px;
+  color: white;
+  padding: 60px;
+  text-align: justify;
+}
+h2  {
+  color: yellow;
+  font-size: 25px;
+}
+.isi    {
+  background-color: black;
+}
